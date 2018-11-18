@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>FANSEE</title>
+        <link rel="stylesheet" href="fansee.css" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header class="first">
+
+            <ul class = "main-nav">
+                    <li><a class = "home" href= "fansee.html">Home</a></li>
+                    <li><a class = "login" href= "result.html">Login</a></a></li>
+                    <li><a class = "signup" href= "signup.html">Sign Up</a></a></li>
+                    <li><a class = "currency" href= "">MYR</a></a></li>
+                    <li><a class = "english" href= "">EN</a></a></li>
+            </ul>
+
+            <br>
+            
+            <div class= "intro">
+                Find Your Favourite Fashion Sense Through Reverse Image Search!
+            </div>
+            <div id = "title" href = "fansee.html"> F A N S E E</div>
+            
+            <form name="fileinfo">
+                    <img id="uploadPreview" style="width: 450px; height: 400px;"/>
+                    <label>Photo:</label> 
+                    <input id="uploadImage" type="file" name="filename" onchange="PreviewImage();"/>
+                    <button type="button" onclick="uploadPhoto()">Upload!</button>
+            </form>
+            <script src="hackathon.js"></script>
+        </header>
+    </body>
+</html>
